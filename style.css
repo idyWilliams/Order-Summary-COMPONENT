@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/pattern-background-desktop.svg" );
+    background-color:#f5f7ff ;
+    /* width: 100vh; */
+    /* background-position: contain; */
+    /* background-image: url("./images/pattern-background-mobile.svg"); */
+    background-repeat: no-repeat;
+    background-position:0px 20px 0px;
+    background-size: contain;
+    padding-top: 10%;
+    /* border: 1px solid; */
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #fff; */
+    border-radius: 15px;
+    /* box-shadow: 1px 1px 1px 1px blue; */
+}
+.card figure img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card h2{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}
+.card p{
+    text-align: center;
+    /* padding-bottom: 2rem; */
+    font-size: 16px ;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+}
+.card a{
+    font-size: 11px;
+}
+.plan .icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-right: 30px;
+}
+.plan{
+  display: flex;
+  /* justify-content:center; */
+  gap: 40px;
+  align-items: center;
+  /* border: 1px solid blue; */
+  border-radius: 10px ;
+ background-color:#d6ddf8  ;
+ padding: 10px;
+ margin-bottom: 20px;
+ /* padding-right: 20px; */
+}
+.plan p {
+    padding-bottom: 10px;
+    line-height: 1.5;
+    margin-right: 10px;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.payment{
+    background-color: blue;
+    padding: 10px 80px 10px 80px;
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(132, 132, 245, 0.404);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.order{
+   border: none;
+   background-color:transparent;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
